@@ -6,7 +6,7 @@ import type {
 
 export function exportNetlist(
   nodes: CircuitNode[],
-  edges: Edge[]
+  _edges: Edge[]
 ) {
 
   const lines: string[] = [];

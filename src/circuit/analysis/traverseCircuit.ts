@@ -4,7 +4,7 @@ import type { CircuitNode } from "../../types/circuit";
 
 export function traverseCircuit(
   startNodeId: string,
-  nodes: CircuitNode[],
+  _nodes: CircuitNode[],
   edges: Edge[]
 ) {
 

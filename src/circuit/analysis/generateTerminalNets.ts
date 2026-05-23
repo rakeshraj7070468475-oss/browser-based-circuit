@@ -14,7 +14,8 @@ export type TerminalNet = {
 };
 
 export function generateTerminalNets(
-nodes: CircuitNode[], edges: Edge[]): TerminalNet[] {
+_nodes: CircuitNode[],
+edges: Edge[] ): TerminalNet[] {
 
   const visited = new Set<string>();
 
